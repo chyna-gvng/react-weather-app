@@ -1,2 +1,2 @@
-# react-weatherapp
+### React WeatherApp
 WeatherApp

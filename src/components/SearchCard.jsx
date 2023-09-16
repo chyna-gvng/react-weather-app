@@ -5,25 +5,9 @@ import { useState } from "react";
 const SearchCard = ({ onclick, onChangeHandle, searchData, location }) => {
   const {name, country}=location
 
-  // const [newName, setNewName]=useState("")
-  // const [newCountry, setNewCountry]=useState("")
-
-
-  // if (name && country !== undefined){
-  //   setNewName(name)
-  //   setNewCountry(country)
-  //   console.log("search card name", name);
-  // } else {
-  //   console.log("value undefined");
-  //   setNewName("")
-  //   setNewCountry("")
-  // }
-
-  // console.log("not undefined",newName);
-
   return (
     <div className="flex flex-col gap-3">
-      <section className="max-w-xs flex flex-row justify-between bg-none border border-slate-gray rounded-full p-1">
+      <section className="flex flex-row justify-between bg-none border border-slate-gray rounded-full p-1">
         <input
           type="text"
           placeholder="Enter a location"
@@ -36,7 +20,7 @@ const SearchCard = ({ onclick, onChangeHandle, searchData, location }) => {
         </section>
       </section>
 
-      <section className="flex justify-start items-center px-4 gap-3">
+      <section className="flex justify-center items-center px-4 gap-3">
         <img src={locationIcon} alt="" className="small-icon-size mt-1" />
 
         {/* <p>{data}</p> */}

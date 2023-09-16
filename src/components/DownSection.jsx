@@ -8,11 +8,6 @@ const DownSection = ({timeInfo}) => {
     <div>
       <section className="sm:p-10 p-2 bg-white rounded-2xl border-slate-gray shadow-lg">
         <section className="">
-          {/* {dailyInfo &&
-            dailyInfo.map((info, index) => {
-              return <DailyInfo key={index} {...info} value={sunriseTime}/>;
-            })} */}
-
             {dailyInfo && <DailyInfo timeInfo={timeInfo}/>}
         </section>
       </section>

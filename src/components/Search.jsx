@@ -40,9 +40,6 @@ const Search = ({ onFetchDataChanged, onErrorMessageChanged, location }) => {
 
     apiDataHandle();
   };
-  // setSearchData("");
-
-    // apiDataHandle();
 
   return (
     <div>

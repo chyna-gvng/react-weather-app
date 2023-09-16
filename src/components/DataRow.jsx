@@ -25,8 +25,6 @@ const DataRow = ({dataRow}) => {
         <section className='flex justify-center items-center gap-1'>
             <img src={wind} alt="" className='small-icon-size' />
             <p className='font-bold'>{dataWind===undefined ? "1.54":dataWind}<span className='text-[12px]'>km</span></p>
-
-            {/* <p>{dataWind}%</p> */}
         </section>
 
         <section className='flex justify-center items-center gap-1'>

@@ -39,11 +39,6 @@ const DailyInfo = ({ timeInfo }) => {
         <p className="bg-white font-montserrat text-xs text-slate-700 ">Min Temp</p>
         <p className="bg-white font-montserrat text-xs text-slate-700 ">{dataTempMin===undefined ? "30":Math.round(dataTempMin)}</p>
 
-        {/* <section className='flex mt-2 bg-transparent'>
-        <p className="bg-white font-montserrat text-xs text-slate-700 ">{dataTempMin===undefined ? "00":Math.round(dataTempMin)}</p>
-        <p className='text-[10px] mt-[-5px] bg-transparent text-slate-700'>0</p>
-        </section> */}
-
       </section>
 
       <section className="flex flex-col bg-white justify-center items-center">
@@ -55,10 +50,6 @@ const DailyInfo = ({ timeInfo }) => {
         <p className="bg-white font-montserrat text-xs text-slate-700 ">Max Temp</p>
         <p className="bg-white font-montserrat text-xs text-slate-700 ">{dataTempMax===undefined ? "38":Math.round(dataTempMax)}</p>
 
-        {/* <section className='flex mt-2 bg-transparent'>
-        <p className="bg-white font-montserrat text-xs text-slate-700 ">{dataTempMax===undefined ? "00":Math.round(dataTempMax)}</p>
-        <p className='text-[10px] mt-[-5px] bg-transparent text-slate-700'>0</p>
-        </section> */}
       </section>
       
     </div>
